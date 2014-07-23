@@ -1,8 +1,46 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Title!</title>
-	</head>
-	<body>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26465.937592781185!2d151.10313495!3d-33.9863122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1406133545626" width="600" height="450" frameborder="0" style="border:0"></iframe>
-	</body>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5QatSQmw62ggHcwV3xfwqkm4bSRu0-Jw">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+ 
+		<div class="topcoat-navigation-bar">
+		    <div class="topcoat-navigation-bar__item center full">
+		        <h1 class="topcoat-navigation-bar__title">Fuel Tracker</h1>
+		    </div>
+		</div>
+
+    <div id="map-canvas"> </div>
+
+    <div class="topcoat-list">
+		  <h3 class="topcoat-list__header">Category</h3>
+		  <ul class="topcoat-list__container">
+		    <li class="topcoat-list__item">
+		      Item 1
+		    </li>
+		    <li class="topcoat-list__item">
+		      Item 2
+		    </li>
+		    <li class="topcoat-list__item">
+		      Item 3
+		    </li>
+		  </ul>
+		</div>
+  </body>
 </html>
