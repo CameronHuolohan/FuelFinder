@@ -11,7 +11,7 @@ body {
   padding: 0; 
   border: none;
   overflow: hidden;
-  background: #1F2D4D;
+  background: #B3D1FF;
 }
 
 #map-canvas { 
@@ -20,44 +20,48 @@ body {
   margin: 1%;
 }
 
+.settings-icon {
+  position: relative;
+  float: right;
+  right: 1%;
+  z-index: 1;
+}
+
 .topcoat-navigation-bar {
   position: relative;
-  height: 3%;
+  height: 4%;
   margin: 1%;
   margin-left: 0px;
   padding-top: 0px;
   padding-left: 0.5%;
-  background: #FF5757;
+  background: #FFAF38;
 }
 
 .topcoat-navigation-bar__item {
   margin: 0px;
   padding: 0px;
-  vertical-align: center;
 }
 
 .topcoat-navigation-bar__title {
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: #2E4272;
-  text-shadow: 0.1rem 0.1rem #5072C2;
+
+  color: #3888FF;
+  vertical-align: center;
 }
 
 .topcoat-list {
   position: relative;
   margin: 1%;
-  background-color: #E0E04C;
+  background-color: #FFC875;
   list-style-type: none;
   overflow-y: scroll;
 }
 
 .topcoat-list__header {
-  padding: 4px 20px;
+  padding: 1% 2%;
   font-size: 0.9em;
   font-weight: 400;
-  border-bottom: solid #3D1414;
-  background-color: #FF5757;
-  color: #2E4272;
+  background-color: #FFAF38;
+  color: #3888FF;
 }
 
 .topcoat-list__container {
