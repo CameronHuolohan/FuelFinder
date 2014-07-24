@@ -17,4 +17,9 @@
 
     <icon src="./icon.png" />
     <gap:splash src="splash.png" />
+
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="portrait " />
+    <preference name="DisallowOverscroll" value="true"/>
+
 </widget>
