@@ -1,24 +1,32 @@
-html { height: 100% }
-body { height: 100%; margin: 0; padding: 0 }
+html {
+ height: 100% 
+}
+
+body { 
+  height: 90%; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden
+}
 
 #map-canvas { 
   position: relative;
-  width: 95%;
+  width: 98%;
   height: 50%;
-  left: 10px;
-  top: 10px;
-  box-shadow: 10px 10px 5px #888888;
+  left: 1%;
+  top: 1%;
 }
 
 .topcoat-navigation-bar {
   position: relative;
-  left: 10px;
-  width: 90%;
+  left: 1%;
+  width: 95%;
+  height: 10%;
   height: 4.375rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background: #e5e9e8;
-  color: #454545;
+  background: #4940A9; /* #e5e9e8; */
+  color: #0E075D; /* #454545; */
   box-shadow: inset 0 -1px #9daca9, 0 1px #d6dcdb;
 }
 
@@ -31,12 +39,14 @@ body { height: 100%; margin: 0; padding: 0 }
 .topcoat-navigation-bar__title {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #454545;
+  color: #0E075D; /* #454545; */
 }
 
 .topcoat-list {
   position: relative;
-  top: 10px;
+  height: 10%;
+  top: 1%;
+  left: 1%;
   border-top: 1px solid #9daca9;
   border-bottom: 1px solid #fff;
   background-color: #e5e9e8;

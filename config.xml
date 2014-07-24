@@ -5,12 +5,10 @@
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <!-- versionCode is optional and Android only -->
-
-    <name>Sydney Fuel Tracker</name>
+    <name>Fuel Finder</name>
 
     <description>
-        An example for phonegap build docs. 
+         
     </description>
 
     <author>
@@ -19,4 +17,4 @@
 
 </widget>
 
-<icon src="icon.png" />
+<icon src="./icon.png" />
