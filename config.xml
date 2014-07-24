@@ -21,5 +21,6 @@
     <preference name="Fullscreen" value="true" />
     <preference name="Orientation" value="portrait " />
     <preference name="DisallowOverscroll" value="true"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
 
 </widget>
