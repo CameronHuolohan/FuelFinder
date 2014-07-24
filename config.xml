@@ -18,9 +18,10 @@
     <icon src="./icon.png" />
     <gap:splash src="splash.png" />
 
-    <preference name="Fullscreen" value="true" />
-    <preference name="Orientation" value="portrait " />
-    <preference name="DisallowOverscroll" value="true"/>
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <preference name="fullscreen" value="true" />
+    <preference name="orientation" value="portrait " />
+
+    <feature>
+    </feature>
 
 </widget>
