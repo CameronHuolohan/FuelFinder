@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+ 
+		<div class="topcoat-navigation-bar">
+		    <div class="topcoat-navigation-bar__item center full">
+		        <h1 class="topcoat-navigation-bar__title">Settings <a href="index2.html"><img src="backIcon.png" border="0"></a></h1>
+		    </div>
+		</div>
+
+    <form action="#" name="settingsForm">
+      <section>
+        <h2>Fuel type</h2>
+        <br>
+        <select>
+          <option value="unleaded" selected >Unleaded</option>
+          <option value="premiumUnleaded">Premium unleaded</option>
+          <option value="lpg">LPG</option>
+          <option value="diesel">Diesel</option>
+          <option value="e10">e10</option>
+        </select>
+      </section>
+
+      <section>
+        <h2>Range</h2>
+        <input type='range' name="range" min="1" max="100" step="1"  onchange="document.settingsForm.rangeKM.value = document.settingsForm.range.value" class='topcoat-range-input--vertical'>
+        <input type=text name="rangeKM" value="50" DISABLED>
+        KM  
+        <br>
+      </section>
+
+      <section>
+        <h2>Time</h2>
+        <br>
+        <input type='range' name="time" min="1" max="100" step="1" onchange="document.settingsForm.timeMinutes.value = document.settingsForm.time.value" class='topcoat-range-input--vertical'>
+        <input type=text name="timeMinutes" value="50" DISABLED>
+        Minutes  
+        <br>
+      </section>
+
+      <section>
+        <h2>Order by</h2>
+        <select>
+          <option value="cheapest" selected >Cheapest</option>
+          <option value="closestKM" >Closest(KM)</option>
+          <option value="closestMinutes">Closest(Minutes)</option>
+        </select>
+      </section>  
+    </form>
+  </body>
+</html>
