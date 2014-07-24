@@ -15,6 +15,5 @@
          
     </author>
 
+    <icon src="./icon.png" />
 </widget>
-
-<icon src="./icon.png" />
